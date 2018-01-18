@@ -1,0 +1,8 @@
+
+nav {
+    font: 13px Arial;
+    background-color: #2d2d2d;
+}
+
+nav a { font-weight: bold; color: #bbbbbb; text-decoration: none; padding: 0 10px; line-height: 30px; }
+nav a:hover { color: #ffffff; }
