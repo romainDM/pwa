@@ -14,9 +14,9 @@ font-size: 30px;
 .menuderoulant {
   background-color: white;
   height:100%;
-  width:100%;
+  width:70%;
   opacity:50%;
-  display:none;
+  font-family:Helvetica;
 
 }
 .photo1 {
@@ -70,4 +70,10 @@ html, body{
 .menu {
   margin-left:2px;
   margin-top:2px;
+}
+#gras1 {
+  font-weight:bolder;
+}
+#gras2 {
+  font-weight:bolder;
 }

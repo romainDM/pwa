@@ -6,7 +6,11 @@ const RESOURCES_TO_PRELOAD = [
   'images/icon.png',
 	'app.js',
   'service-worker.js',
-	'manifest.json'
+	'manifest.json',
+	'images/burger1.jpeg',
+	'images/bobun.jpeg',
+
+
 ];
 
 // On décrie ce que l'on veut faire quand elle s'installe
