@@ -1,3 +1,4 @@
+// fichier en cache qui se sauvegarde dans les fichiers de l'utilisateur
 const CACHE_NAME = 'App-Cache';
 const RESOURCES_TO_PRELOAD = [
 	'index.html',
@@ -8,7 +9,7 @@ const RESOURCES_TO_PRELOAD = [
 	'manifest.json'
 ];
 
-// what do we do when we want to install the application ?
+// On décrie ce que l'on veut faire quand elle s'installe
 self.addEventListener('install', function(event) {
   console.log("installing");
   event.waitUntil(
@@ -18,7 +19,7 @@ self.addEventListener('install', function(event) {
 	);
 });
 
-// what the application is doing when we are offline ?
+// Ce que l'on fait quand l'appli charge nos données
 self.addEventListener('fetch', function(event) {
   console.log("fetching");
   event.respondWith(
