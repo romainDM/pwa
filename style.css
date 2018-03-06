@@ -5,24 +5,46 @@
   height:70px;
   background-color:black;
   color:white;
+  z-index:1;
 }
 .blanc1 {
+
 background-color:white;
-font-size: 30px;
+font-size: 10px;
+  z-index:1;
+
+}
+.fadeout {
+  position:fixed;
+  background-color: Black;
+  height:100%;
+  width:30%;
+  display:none;
+  margin-left:70%;
+  opacity:0.4;
 
 }
 .menuderoulant {
+  position:fixed;
   background-color: white;
   height:100%;
   width:70%;
-  opacity:50%;
+  opacity:0%;
+  display:none;
   font-family:Helvetica;
+  z-index: 8;
 
 }
+
+#mapid{
+  height:100vh;
+}
 .photo1 {
+position:static;
 background-color: white;
 height:643px;
 width:100%;
+  z-index:8;
 }
 
 html, body{
@@ -32,48 +54,62 @@ html, body{
 }
 
 #paul {
+
   font-size: 30px;
   font-family:Helvetica;
+
 }
 
 .photo2 {
   background-color:white;
   height: 730px;
 
+
 }
 #alice {
   font-size:30px;
   font-family:Helvetica;
+
 }
 #burger {
-  font-size:50px;
+  font-size:45px;
   font-family:Helvetica;
+
 }
 #bobun2
 {
   font-size: 50px;
   font-family: Helvetica;
+
 }
 #phrase1{
   font-size: 50px;
   font-family:Helvetica;
+
 }
 #titre{
-  margin-top:1px;
+  margin-top:15px;
+  font-family:Helvetica;
+
 }
 .burgé {
   width:100%;
+
 }
 .large {
   width:100%;
+
 }
-.menu {
+#menu {
   margin-left:2px;
   margin-top:2px;
+
 }
 #gras1 {
   font-weight:bolder;
+
 }
 #gras2 {
   font-weight:bolder;
+
 }
